@@ -20,7 +20,7 @@ class MyClass:
 
 class MyChildClass(MyClass):
     def __init__(self, value: int = 2) -> None:
-        self.value = value ** 2
+        self.value = value**2
 
 
 def myclass_from_config(config: Config) -> MyClass:
